@@ -1,0 +1,3 @@
+[submodule "Stepik HTML_CSS/normalize.css"]
+	path = Stepik HTML_CSS/normalize.css
+	url = https://github.com/necolas/normalize.css.git
