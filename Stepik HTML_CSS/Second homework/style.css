@@ -1,0 +1,96 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  position: fixed;
+  width: 1219px;
+  height: 84px;
+  left: 0px;
+  top: 0px;
+
+  background: #007765;
+
+  line-height: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.logo {
+  margin: 20px auto 20px 55px;
+  width: 184px;
+  height: 45px;
+}
+
+.theProblem {
+  position: absolute;
+  width: 129px;
+  height: 29px;
+  left: 741px;
+  top: 28px;
+}
+
+.firstModuleSigh {
+  position: absolute;
+  width: 7px;
+  height: 29px;
+  left: 878px;
+  top: 28px;
+}
+
+.piedPiperCoin {
+  position: absolute;
+  width: 154px;
+  height: 29px;
+  left: 893px;
+  top: 29px;
+}
+.secondModuleSigh {
+  position: absolute;
+  width: 7px;
+  height: 29px;
+  left: 1055px;
+  top: 29px;
+}
+
+.theTeam {
+  position: absolute;
+  width: 95px;
+  height: 29px;
+  left: 1070px;
+  top: 29px;
+}
+
+.secondBackground {
+  position: absolute;
+  width: 1219px;
+  height: 403px;
+  left: 0px;
+  top: 84px;
+
+  background-image: url(Content/secondBacground.svg);
+}
+
+.secondBackground p {
+  position: absolute;
+  width: 1219px;
+  height: 83px;
+  left: 0px;
+  top: 84px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+
+  color: #ffffff;
+}
