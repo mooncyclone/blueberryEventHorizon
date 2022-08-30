@@ -2,12 +2,21 @@ a {
   text-decoration: none;
   color: white;
 }
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .header {
   position: fixed;
-  width: 1219px;
+  justify-content: center;
+  align-items: center;
   height: 84px;
-  left: 0px;
+  z-index: 9999;
   top: 0px;
+  left: 0px;
+  right: 0px;
 
   background: #007765;
 
@@ -24,73 +33,138 @@ a {
 }
 
 .logo {
-  margin: 20px auto 20px 55px;
   width: 184px;
   height: 45px;
+  margin: 20px 980px 20px 55px;
 }
 
 .theProblem {
-  position: absolute;
   width: 129px;
   height: 29px;
-  left: 741px;
-  top: 28px;
+  margin: -63px 349px 29px 741px;
 }
 
 .firstModuleSigh {
-  position: absolute;
   width: 7px;
   height: 29px;
-  left: 878px;
-  top: 28px;
+  margin: -58px 334px 29px 878px;
 }
 
 .piedPiperCoin {
-  position: absolute;
   width: 154px;
   height: 29px;
-  left: 893px;
-  top: 29px;
+  margin: -58px auto 27px 893px;
 }
 .secondModuleSigh {
-  position: absolute;
   width: 7px;
   height: 29px;
-  left: 1055px;
-  top: 29px;
+  margin: -56px 157px 29px 1055px;
 }
 
 .theTeam {
-  position: absolute;
   width: 95px;
   height: 29px;
-  left: 1070px;
-  top: 29px;
+  margin: -58px 54px 27px 1070px;
 }
 
-.secondBackground {
-  position: absolute;
-  width: 1219px;
+.firstBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 403px;
-  left: 0px;
-  top: 84px;
+  margin-top: 84px;
+  margin-left: -8px;
+  margin-right: -8px;
 
-  background-image: url(Content/secondBacground.svg);
-}
-
-.secondBackground p {
-  position: absolute;
-  width: 1219px;
-  height: 83px;
-  left: 0px;
-  top: 84px;
-
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 72px;
   line-height: 84px;
+  color: #ffffff;
+
+  background-image: url(Content/secondBacground.svg);
+  background-size: 100%;
+}
+
+.secondBlock {
+  margin-left: -8px;
+  margin-right: -8px;
+
+  background: #ffffff;
+}
+
+.secondBlockTitle {
+  margin: 0px 0px 0px 0px;
+  padding: 48px 55px 0px 55px;
+
+  font-size: 64px;
+  line-height: 75px;
+
+  text-align: center;
+  color: #007765;
+}
+
+.secondBlockContent {
+  margin: 0px 0px 0px 0px;
+  padding: 48px 55px 92px 55px;
+
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.thirdBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 483px;
+
+  background-image: url(Content/thirdBlock.svg);
+  background-size: 100%;
+}
+
+.thirdBlockContent {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 55px 0px 55px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
   text-align: center;
 
   color: #ffffff;
+}
+
+.fourthBlock {
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 0px 55px 0px 55px;
+  height: 604px;
+}
+
+.fourthBlockTitle {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+
+  text-align: center;
+
+  color: #007765;
+}
+
+.ppcLogo {
+  float: left;
+  margin: 0px 48px 0px 0px;
+}
+
+.fourthBlockContent {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #000000;
 }
