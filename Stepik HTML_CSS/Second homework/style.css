@@ -1,3 +1,5 @@
+@import url("/Users/mooncyclone/Desktop/VScode projects/blueberryEventHorizon/blueberryEventHorizon/node_modules/normalize.css");
+
 a {
   text-decoration: none;
   color: white;
@@ -12,6 +14,7 @@ body {
   position: fixed;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 84px;
   z-index: 9999;
   top: 0px;
@@ -32,39 +35,51 @@ body {
   color: #ffffff;
 }
 
-.logo {
+.header__content {
+  max-width: 1219px;
+  margin: 0 auto;
+  padding: 0 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__content-links {
+  display: flex;
+}
+
+.header__content-logo {
   width: 184px;
   height: 45px;
-  margin: 20px 980px 20px 55px;
+  margin: 20px;
 }
 
 .theProblem {
   width: 129px;
   height: 29px;
-  margin: -63px 349px 29px 741px;
+  /* margin: -63px 349px 29px 741px; */
 }
 
 .firstModuleSigh {
   width: 7px;
   height: 29px;
-  margin: -58px 334px 29px 878px;
+  /* margin: -58px 334px 29px 878px; */
 }
 
 .piedPiperCoin {
   width: 154px;
   height: 29px;
-  margin: -58px auto 27px 893px;
+  /* margin: -58px auto 27px 893px; */
 }
 .secondModuleSigh {
   width: 7px;
   height: 29px;
-  margin: -56px 157px 29px 1055px;
+  /* margin: -56px 157px 29px 1055px; */
 }
 
 .theTeam {
   width: 95px;
   height: 29px;
-  margin: -58px 54px 27px 1070px;
+  /* margin: -58px 54px 27px 1070px; */
 }
 
 .firstBlock {
@@ -86,15 +101,15 @@ body {
 }
 
 .secondBlock {
-  margin-left: -8px;
-  margin-right: -8px;
+  max-width: 1219px;
+  margin: 0 auto;
 
   background: #ffffff;
 }
 
-.secondBlockTitle {
-  margin: 0px 0px 0px 0px;
-  padding: 48px 55px 0px 55px;
+.secondBlock__title {
+  margin: 0 auto;
+  padding: 48px 0px 0px 0px;
 
   font-size: 64px;
   line-height: 75px;
@@ -103,14 +118,15 @@ body {
   color: #007765;
 }
 
-.secondBlockContent {
-  margin: 0px 0px 0px 0px;
-  padding: 48px 55px 92px 55px;
+.secondBlock__content {
+  max-width: 1219px;
+  margin: 0 auto;
+  padding: 0px 55px 92px 55px;
 
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
-  text-align: center;
+  text-align: justify;
 
   color: #000000;
 }
@@ -127,9 +143,10 @@ body {
   background-size: 100%;
 }
 
-.thirdBlockContent {
+.thirdBlock__content {
+  max-width: 1219px;
   margin: 0px 0px 0px 0px;
-  padding: 0px 55px 0px 55px;
+  padding: 0px 55px px 55px;
   font-style: italic;
   font-weight: 500;
   font-size: 48px;
@@ -140,13 +157,12 @@ body {
 }
 
 .fourthBlock {
-  margin-left: -8px;
-  margin-right: -8px;
-  padding: 0px 55px 0px 55px;
-  height: 604px;
+  max-width: 1219px;
+  margin: 0 auto;
+  padding: 0px 55px 92px 55px;
 }
 
-.fourthBlockTitle {
+.fourthBlock__title {
   font-weight: 500;
   font-size: 64px;
   line-height: 75px;
@@ -156,15 +172,101 @@ body {
   color: #007765;
 }
 
-.ppcLogo {
+.fourthBlock__content {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.fourthBlock__content-logo {
   float: left;
   margin: 0px 48px 0px 0px;
 }
 
-.fourthBlockContent {
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
+.fifthBlock {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #eeeeee;
+}
 
-  color: #000000;
+.fifthBlock__title {
+  margin: 0 auto;
+  padding: 48px 55px 48px 55px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+
+  text-align: center;
+
+  color: #007765;
+}
+
+.fifthBlock__content {
+  max-width: 1219px;
+  margin: 0px auto;
+  padding: 0px 55px 0px 55px;
+}
+
+.fifthBlock__cards {
+  width: 100%;
+  max-width: 1219px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.fifthBlock__cards-logo {
+  width: 168px;
+  height: 168px;
+  margin-bottom: 1em;
+}
+
+.fifthBlock__cards-name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.fifthBlock__cards-content {
+  width: 350px;
+  height: 283px;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-bottom: 55px;
+}
+
+.footer {
+  background: #333333;
+  height: 176px;
+  margin: 0 auto;
+  padding: 0px 55px 0px 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__content {
+  margin: 0 auto;
+  padding: 0px 55px 0px 55px;
+  width: 100%;
+  max-width: 1219px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #eeeeee;
+  text-align: center;
 }
